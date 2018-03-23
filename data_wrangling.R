@@ -19,7 +19,7 @@ require(anytime)
 }
 #LOAD DATA -----------------------------------------------
 {
-json_file = "~/Interviews/playlist data challenge/data_science_challenge.json"
+json_file = "~/playlist data challenge/data_science_challenge.json"
 json_data = fromJSON(json_file, flatten = TRUE)
 
 col_names = json_data$columns
